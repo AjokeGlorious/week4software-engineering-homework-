@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background: rgb(178, 178, 221);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.introduction-section {
+  background: rgb(166, 190, 190);
+  line-height: 25px;
+  padding: 10px;
+}
+h1 {
+  font-size: 40px;
+  color: #722424;
+  text-align: center;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+.container {
+  width: 0 auto;
+  height: 50%;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px black;
+  position: relative;
+  align-items: center;
+}
+.container p {
+  width: 50px auto;
+  text-align: center;
+  line-height: 25px;
+}
+.skills-section {
+  background: rgb(191, 134, 134);
+  line-height: 25px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.skills-section ul li {
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  line-height: 25px;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  background: #af8181;
+  margin: 20px;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.skills-section ul li:hover {
+  color: #fff;
+  background: #a89ce1;
+  transition: 0.5s;
+}
+.contact-section {
+  padding: 10px;
+  background: #b4d3d3d5;
+  line-height: 25px;
+  margin: 0;
+}
+.contact-section p {
+  margin-top: 30px;
+  text-align: center;
+}
+.contact-section a {
+  text-decoration: none;
+  color: #511f1f;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.contact-section a:hover {
+  color: #e7d4d9;
+}
+.contact-section p i {
+  color: #eed9df;
+  margin-right: 15px;
+  font-size: 25px;
+ 
+}
+.social-icons {
+  margin-top: 30px;
+  justify-content: space-around;
+ text-align: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  list-style-type: none;
+}
+
+.social-icons a {
+  text-align: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #a73056;
+  display: inline-block;
+  transition: transform 0.5s;
+}
